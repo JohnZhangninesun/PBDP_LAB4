@@ -7,7 +7,7 @@
    trainData.txt
    - KNN0.java:利用knn算法，读取trainData.txt和testData.txt数据，并行化进行数据训练和测试机数据分类预测，输出分类结果
    - knn.jar:KNN0.java程序jar包，用于hadoop运行
-   - part-r-00000:词文件为分类部分结果文件，全结果文件过大
+   - part-r-00000:词文件为分类部分结果文件
 - naivebayes
    - pre
       - conf.py:生成所需配置文件，读取特征词文件chi_word.txt生成包含类别和特征属性的配置文件NBayes.conf
@@ -18,5 +18,5 @@
    - src:朴素贝叶斯算法源码文件夹，利用朴素贝叶斯算法，读取测试集和训练集向量化数据及配置文件，并行化进行数据训练和测试集数据分类预测，
    输出分类结果
    - nbm.jar:用于hadoop运行的jar包
-   - part-r-00000:词文件为分类部分结果文件，全结果文件过大
+   - part-r-00000:词文件为分类部分结果文件
 - lab4实验报告161278050.pdf:实验报告
